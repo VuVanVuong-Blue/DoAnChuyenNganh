@@ -1,4 +1,4 @@
-# Voice Assistant Việt - Đồ án Tốt nghiệp
+# Voice Assistant Việt - Đồ án Chuyên Ngành
 
 ## Hướng dẫn chạy Demo
 
