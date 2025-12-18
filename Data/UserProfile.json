@@ -1,0 +1,16 @@
+{
+    "age": 21,
+    "height": 165,
+    "weight": 60,
+    "gender": "male",
+    "goal": "lose",
+    "activityLevel": "low",
+    "dailyCalories": "1850",
+    "uid": "fshV5OSJrYfAY8I74HBLOyz33p52",
+    "data": {
+        "email": "seven3v@gmail.com",
+        "name": "Vương",
+        "role": "user",
+        "joinedAt": "2025-12-09T23:19:41.907Z"
+    }
+}

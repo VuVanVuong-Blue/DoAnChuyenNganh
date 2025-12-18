@@ -1,0 +1,33 @@
+[
+    {
+        "id": "vision-1763535023.54623",
+        "type": "analysis-image",
+        "image_path": "C:\\Users\\seven\\OneDrive\\Desktop\\Voice Assistant Demo\\Data\\15668_20210516_113653_206083_an_khoai_lang_moi_n_max_1800x1800_jpg_793891b594.jpg",
+        "analysis": "Trong ảnh là **khoai lang** (sweet potatoes).\n\nChúng có vỏ màu hồng tím và thịt bên trong màu vàng cam.",
+        "prompt": "củ gì trong ảnh",
+        "timestamp": "2025-11-19 13:50:23"
+    },
+    {
+        "id": "vision-1763535063.602254",
+        "type": "analysis-image",
+        "image_path": "C:\\Users\\seven\\OneDrive\\Desktop\\Voice Assistant Demo\\Data\\5984_cac-loai-vet-10.jpg",
+        "analysis": "Trong ảnh là một loài chim vẹt. Cụ thể hơn, đây là chim vẹt **Sun Conure** (còn gọi là vẹt mặt trời).\n\nLoài vẹt này nổi bật với bộ lông màu vàng cam rực rỡ ở đầu và thân, xen lẫn màu xanh lá cây trên lưng và cánh, cùng với màu xanh lam ở đuôi và cánh.",
+        "prompt": "con gì trong ảnh",
+        "timestamp": "2025-11-19 13:51:03"
+    },
+    {
+        "id": "vision-1763573497.630102",
+        "type": "analysis-image",
+        "image_path": "C:\\Users\\seven\\OneDrive\\Desktop\\Voice Assistant Demo\\Data\\9984_ca-voi-xanh_1665199109.jpg",
+        "analysis": "Trong ảnh là một con **Cá nhà táng** (Sperm whale - *Physeter macrocephalus*).\n\nĐặc điểm nhận dạng nổi bật là cái đầu khổng lồ, hình hộp (chiếm khoảng 1/3 chiều dài cơ thể), không có vây lưng rõ rệt mà thay vào đó là một loạt bướu hoặc gờ thấp chạy dọc sống lưng gần đuôi.",
+        "prompt": "trong ảnh là con gì",
+        "timestamp": "2025-11-20 00:31:37"
+    },
+    {
+        "id": "gen-1764147997.1271517",
+        "type": "ai-image",
+        "prompt": "con gà cho tôi",
+        "image_path": "C:\\Users\\seven\\OneDrive\\Desktop\\Voice Assistant Demo\\Backend\\..\\Data\\con_gà_cho_tôi.jpg",
+        "timestamp": "2025-11-26 16:06:37"
+    }
+]

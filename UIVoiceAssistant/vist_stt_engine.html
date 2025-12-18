@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head><meta charset="UTF-8"><title>VIST STT Engine</title></head>
+<body>
+  <h2 id="status" style="font-family:sans-serif; color:green;">Sẵn sàng</h2>
+  <div id="output"></div>
+  <script>
+    // Cấu hình nhận diện giọng nói
+    var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    var recognition = new SpeechRecognition();
+    
+    recognition.lang = 'vi-VN'; // Bạn có thể đổi thành 'en-US' nếu muốn nghe tiếng Anh
+    recognition.continuous = false; // Nghe xong 1 câu tự ngắt
+    recognition.interimResults = false;
+
+    recognition.onstart = function() { 
+        document.getElementById('status').innerText = "Đang nghe...";
+        document.getElementById('status').style.color = "red";
+    };
+
+    recognition.onend = function() { 
+        document.getElementById('status').innerText = "Đang xử lý...";
+        document.getElementById('status').style.color = "blue";
+    };
+
+    recognition.onresult = function(event) {
+        var transcript = event.results[0][0].transcript;
+        document.getElementById('output').innerText = transcript;
+    };
+    
+    recognition.onerror = function(event) {
+        console.error(event.error);
+        document.getElementById('status').innerText = "Lỗi: " + event.error;
+    };
+
+    // Các hàm điều khiển từ Python
+    function startListening() {
+        try { recognition.start(); } catch (e) {}
+    }
+    
+    function stopListening() {
+        try { recognition.stop(); } catch (e) {}
+    }
+    
+    function clearText() {
+        document.getElementById('output').innerText = "";
+    }
+  </script>
+</body>
+</html>

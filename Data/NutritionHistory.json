@@ -1,0 +1,53 @@
+{
+    "2025-12-02": {
+        "meals": [],
+        "total_calories": 0,
+        "macros": {
+            "protein": 0,
+            "carbs": 0,
+            "fat": 0
+        },
+        "water": 1
+    },
+    "2025-12-05": {
+        "meals": [
+            {
+                "id": 1764907524,
+                "name": "cơm trộn Hàn Quốc",
+                "calories": 600,
+                "protein": 20,
+                "carbs": 80,
+                "fat": 20,
+                "time": "11:05",
+                "icon": "🍽️"
+            },
+            {
+                "id": 1764917477,
+                "name": "Trà sữa",
+                "calories": 300,
+                "protein": 2,
+                "carbs": 40,
+                "fat": 15,
+                "time": "13:51",
+                "icon": "🍽️"
+            },
+            {
+                "id": 1764917527,
+                "name": "Gỏi cuốn tôm thịt",
+                "calories": 150,
+                "protein": 8,
+                "carbs": 15,
+                "fat": 5,
+                "time": "13:52",
+                "icon": "🍽️"
+            }
+        ],
+        "total_calories": 1050,
+        "macros": {
+            "protein": 30,
+            "carbs": 135,
+            "fat": 40
+        },
+        "water": 1
+    }
+}

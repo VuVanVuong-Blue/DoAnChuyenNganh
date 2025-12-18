@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1764147786572,
+    "title": "5:00pm đi đón em",
+    "time": "17:00",
+    "date": "26/11/2025",
+    "category": "personal",
+    "color": "#FF6B9D",
+    "is_notified": true,
+    "is_defaulted": false
+  },
+  {
+    "id": 1764148197507,
+    "title": "4:15pm ngày hôm nay gọi thằng kiệt dậy",
+    "time": "16:15",
+    "date": "26/11/2025",
+    "category": "personal",
+    "color": "#FF6B9D",
+    "is_notified": true,
+    "is_defaulted": false
+  },
+  {
+    "id": 1764918542903,
+    "title": "3:00pm kêu tôi dậy",
+    "time": "15:00",
+    "date": "05/12/2025",
+    "category": "personal",
+    "color": "#FF6B9D",
+    "is_notified": true,
+    "is_defaulted": false
+  }
+]

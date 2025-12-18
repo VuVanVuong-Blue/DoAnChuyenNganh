@@ -1,0 +1,9 @@
+{
+  "appId": "com.vuong.voiceassistant",
+  "appName": "VoiceAssistantViet",
+  "webDir": "build",
+  "server": {
+    "androidScheme": "http", 
+    "cleartext": true
+  }
+} 
